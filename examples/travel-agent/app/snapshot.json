@@ -1,0 +1,183 @@
+{
+  "capturedAt": "2026-09-21",
+  "trip": {
+    "from": "JFK",
+    "to": "LIS",
+    "city": "Lisbon",
+    "departureDate": "2026-11-05",
+    "returnDate": "2026-11-08"
+  },
+  "flights": [
+    {
+      "price": 699,
+      "type": "Round trip",
+      "totalDurationMinutes": 405,
+      "stops": 0,
+      "legs": [
+        {
+          "from": "JFK",
+          "to": "LIS",
+          "departure": "2026-11-05 20:15",
+          "arrival": "2026-11-06 08:00",
+          "airline": "Delta",
+          "flightNumber": "DL 272",
+          "durationMinutes": 405
+        }
+      ]
+    },
+    {
+      "price": 800,
+      "type": "Round trip",
+      "totalDurationMinutes": 420,
+      "stops": 0,
+      "legs": [
+        {
+          "from": "JFK",
+          "to": "LIS",
+          "departure": "2026-11-05 22:00",
+          "arrival": "2026-11-06 10:00",
+          "airline": "Tap Air Portugal",
+          "flightNumber": "TP 210",
+          "durationMinutes": 420
+        }
+      ]
+    },
+    {
+      "price": 717,
+      "type": "Round trip",
+      "totalDurationMinutes": 575,
+      "stops": 1,
+      "legs": [
+        {
+          "from": "JFK",
+          "to": "MAD",
+          "departure": "2026-11-05 17:05",
+          "arrival": "2026-11-06 06:20",
+          "airline": "Iberia",
+          "flightNumber": "IB 212",
+          "durationMinutes": 435
+        },
+        {
+          "from": "MAD",
+          "to": "LIS",
+          "departure": "2026-11-06 07:15",
+          "arrival": "2026-11-06 07:40",
+          "airline": "Iberia",
+          "flightNumber": "IB 529",
+          "durationMinutes": 85
+        }
+      ]
+    },
+    {
+      "price": 718,
+      "type": "Round trip",
+      "totalDurationMinutes": 690,
+      "stops": 1,
+      "legs": [
+        {
+          "from": "JFK",
+          "to": "CDG",
+          "departure": "2026-11-05 01:00",
+          "arrival": "2026-11-05 14:05",
+          "airline": "Air France",
+          "flightNumber": "AF 11",
+          "durationMinutes": 425
+        },
+        {
+          "from": "CDG",
+          "to": "LIS",
+          "departure": "2026-11-05 15:50",
+          "arrival": "2026-11-05 17:30",
+          "airline": "Air France",
+          "flightNumber": "AF 1194",
+          "durationMinutes": 160
+        }
+      ]
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Brown's | Avenue Hotel",
+      "url": "https://www.brownshotelgroup.com/browns-avenue/",
+      "description": "Polished adults-only hotel offering a lounge & a restaurant, plus a rooftop pool with city views.",
+      "pricePerNight": "$214",
+      "totalPrice": "$642",
+      "rating": 4.6,
+      "reviews": 281,
+      "hotelClass": "5-star hotel",
+      "amenities": [
+        "Breakfast",
+        "Free Wi‑Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Restaurant",
+        "Airport shuttle",
+        "Full‑service laundry"
+      ]
+    },
+    {
+      "name": "Palácio Príncipe Real",
+      "url": "http://www.palacioprincipereal.com/",
+      "description": "Elegant hotel in a 19th-century building offering a bar & a restaurant, plus an outdoor pool.",
+      "pricePerNight": "$180",
+      "totalPrice": "$540",
+      "rating": 4.9,
+      "reviews": 154,
+      "hotelClass": "5-star hotel",
+      "amenities": [
+        "Free breakfast",
+        "Free Wi‑Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Airport shuttle"
+      ]
+    },
+    {
+      "name": "Palácio das Especiarias",
+      "url": "http://www.palaciodasespeciarias.com/",
+      "pricePerNight": "$169",
+      "totalPrice": "$507",
+      "rating": 4.6,
+      "reviews": 1036,
+      "hotelClass": "4-star hotel",
+      "deal": "19% less than usual",
+      "amenities": [
+        "Breakfast",
+        "Free Wi‑Fi",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Restaurant",
+        "Kitchen in some rooms"
+      ]
+    },
+    {
+      "name": "The One Palácio da Anunciada",
+      "url": "https://www.hotelstheone.com/en/lisbon-hotels/the-one-palacio-da-anunciada?utm_source=google_my_business&utm_medium=boton_sitio_web&utm_campaign=hpa",
+      "description": "Plush rooms in a formal hotel offering a hip restaurant & 2 posh bars, plus a luxe spa & 2 pools.",
+      "pricePerNight": "$332",
+      "totalPrice": "$995",
+      "rating": 4.8,
+      "reviews": 1213,
+      "hotelClass": "5-star hotel",
+      "deal": "17% less than usual",
+      "amenities": [
+        "Free Wi‑Fi",
+        "Parking ($)",
+        "Pools",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Spa",
+        "Bar"
+      ]
+    }
+  ],
+  "lowestPrice": 699,
+  "priceLevel": "typical"
+}

@@ -62,6 +62,13 @@ export default function Page() {
 
       {result?.error ? <p className="error">{result.error}</p> : null}
 
+      {result?.capturedAt ? (
+        <p className="notice">
+          The demo key&rsquo;s search allowance is used up, so this is a real search captured on{' '}
+          {result.capturedAt} rather than a live one.
+        </p>
+      ) : null}
+
       {result && !result.error ? (
         <div className="columns">
           <section>

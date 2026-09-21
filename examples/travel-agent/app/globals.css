@@ -177,3 +177,13 @@ footer {
 a {
   color: var(--accent);
 }
+
+.notice {
+  border: 1px solid var(--border);
+  background: var(--accent-soft);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 24px;
+  font-size: 0.9rem;
+}
